@@ -1,0 +1,123 @@
+
+  .lesson-schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+h3:first-of-type {
+    color: pink;
+  }
+  
+  #greycol {
+    color: grey;
+  }
+  
+  div > p {
+    color: red;
+  }
+  
+  p:nth-of-type(3) {
+    color: green;
+  }
+  
+  p.yellow {
+    color: yellow;
+  }
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .monday li {
+    color: blue;
+  }
+  
+  .tuesday li {
+    color: green;
+  }
+  
+  .wednesday li {
+    color: red;
+  }
+  
+  .thursday li {
+    color: orange;
+  }
+  
+  .friday li {
+    color: purple;
+  }
+  
+
+  li:hover {
+    background-color: lightgray;
+    transition: 300ms;
+    border-radius: 1.5rem;
+  }
+  
+  li:active {
+    font-weight: bold;
+    transition: 600ms;
+  }
+  
+  li:first-child {
+    text-transform: uppercase;
+  }
+  
+  li:last-child {
+    text-decoration: underline;
+  }
+  
+  li:nth-child(2) {
+    font-style: italic;
+  }
+  
+
+  ul:first-of-type {
+    border: 2px solid blue;
+  }
+  
+  ul:nth-of-type(2) {
+    background-color: lightgreen;
+  }
+  
+  ul:nth-child(3) {
+    padding: 10px;
+  }
+  
+  ul:nth-last-of-type(1) {
+    margin-bottom: 20px;
+  }
+  
+  ul:only-of-type {
+    font-size: 18px;
+  }
+  
+  
