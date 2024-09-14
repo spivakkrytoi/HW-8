@@ -23,18 +23,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
   }
-
-h3:first-of-type {
-    color: pink;
-  }
-  
+h3:nth-child(1){
+  color: pink;
+}
   #greycol {
     color: grey;
   }
-  
-  div > p {
-    color: red;
-  }
+
+div > div > p{
+  color: red;
+}
   
   p:nth-of-type(3) {
     color: green;
@@ -80,6 +78,7 @@ body {
     background-color: lightgray;
     transition: 300ms;
     border-radius: 1.5rem;
+    cursor: pointer;
   }
   
   li:active {
@@ -116,8 +115,8 @@ body {
     margin-bottom: 20px;
   }
   
-  ul:only-of-type {
+.lesson-schedule{
     font-size: 18px;
-  }
+}
   
   
